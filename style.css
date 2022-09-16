@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Montserrat", sans-serif;
+  font-family: "Fraunces", serif;
+}
+
+.image {
+  width: 20%;
+  border-start-start-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 12%;
+}
+
+.content {
+  background-color: #ffffff;
+  padding-left: 30px;
+  padding-right: 25px;
+  font-size: 15px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.first-charc {
+  font-family: "Montserrat", sans-serif;
+  margin: 20px 0;
+  text-transform: uppercase;
+  color: hsl(158, 36%, 37%);
+  font-size: 13px;
+  letter-spacing: 3px;
+}
+
+.heading {
+  font-family: "Fraunces", serif;
+  font-size: 30px;
+  margin-bottom: 18px;
+}
+
+.main-para {
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-size: 12px;
+  margin-bottom: 20px;
+  line-height: 18px;
+}
+
+.flexc {
+  display: flex;
+  align-items: center;
+  color: hsl(158, 36%, 37%);
+}
+
+.gap {
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.cart {
+  margin-right: 10px;
+}
+
+button {
+  background-color: hsla(212, 19%, 16%, 0.884);
+  border: 1px solid hsla(212, 19%, 16%, 0.884);
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 60px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: hsl(228, 12%, 48%);
+  border: 1px solid hsl(228, 12%, 48%);
+}
